@@ -3,9 +3,6 @@
 
 <link rel="stylesheet" href="${css}/global.css" />
 <link rel="stylesheet" href="${css}/member.css" />
-<jsp:include page="../global/top.jsp"/>
-<jsp:include page="../global/header.jsp"/>
-<jsp:include page="../global/navi.jsp"/>
 <div class="box">
 		<h1>회원 정보 수정</h1>
 		<form action="${context}/member.do" method="post">
@@ -71,5 +68,3 @@
 		</a>
 	</div>
 
-	<jsp:include page="../global/footer.jsp"/>
-	<jsp:include page="../global/end.jsp"/> 

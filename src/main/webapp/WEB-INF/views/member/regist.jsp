@@ -1,8 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
        
-    <jsp:include page="../global/top.jsp"/>
-    <jsp:include page="../global/header.jsp"/>
 <div class ="box">
 	  <form action="${context}/member.do" method = "post">
 	  <span class = "meta">이름</span><input type="text" name ="name"/><br />
@@ -15,7 +13,7 @@
 		<input type="radio" name="major" value="computer" checked/> 컴공학부
 		<input type="radio" name="major" value="mgmt" /> 경영학부
 		<input type="radio" name="major" value="math" /> 수학부 
-		<input type="radio" name="major" value="eng" /> 영문학부 <br /><br /><br/></brr>
+		<input type="radio" name="major" value="eng" /> 영문학부 <br /><br /><br/>
 		<span class="meta">수강과목</span> <br /><br />
 		<input type="checkbox" name="subject" value="java" /> Java
 		<input type="checkbox" name="subject" value="sql" /> SQL
@@ -31,7 +29,5 @@
 	</form>
 
 	</div>
-    <jsp:include page="../global/footer.jsp"/>
-    <jsp:include page="../global/end.jsp"/>
 
 
